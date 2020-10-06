@@ -1,16 +1,586 @@
 {
-  "posts":[
+  "user": [
     {
-      "id" : 0,
-      "title": "First post!",
-      "content" : "My first content!"
+      "id": "1",
+      "nama": "Alfa Fadlilah",
+      "email": "alfa@gmail.com",
+      "password": "password1",
+      "phone": "08123312336",
+      "point": 2637
+    },
+    {
+      "id": "2",
+      "nama": "Bella Vian Oktavia",
+      "email": "bella@gmail.com",
+      "password": "password2",
+      "phone": "081223809110",
+      "point": 3372
     }
   ],
-  "comments" : [
+  "pm": [
     {
-      "id": 0,
-      "content": "Wow such content!",
-      "username": "zero_cool"
+      "id": "1",
+      "nama": "Radharani Dyatmika",
+      "email": "radha@gmail.com",
+      "password": "password3",
+      "phone": "081237468239"
+    }
+  ],
+  "ebook": [
+    {
+      "id": "1",
+      "booktitle": "Creative Thinking",
+      "author": "Malcolm Gladwell",
+      "src": "book1"
+    },
+    {
+      "id": "2",
+      "booktitle": "7 Tools Improvement",
+      "flex": 6,
+      "author": "Malcolm Gladwell"
+    },
+    {
+      "id": "3",
+      "booktitle": "5R Guideline",
+      "flex": 6,
+      "author": "Malcolm Gladwell"
+    },
+    {
+      "id": "4",
+      "booktitle": "5R For Leader",
+      "flex": 6,
+      "author": "Malcolm Gladwell"
+    },
+    {
+      "id": "5",
+      "booktitle": "Creative Thinking 2.0",
+      "flex": 6,
+      "author": "Malcolm Gladwell"
+    },
+    {
+      "id": "6",
+      "booktitle": "7 Tools Improvement 2.0",
+      "flex": 6,
+      "author": "Malcolm Gladwell"
+    },
+    {
+      "id": "7",
+      "booktitle": "5R Guideline 2.0",
+      "flex": 6,
+      "author": "Malcolm Gladwell"
+    },
+    {
+      "id": "8",
+      "booktitle": "5R For Leader 2.0",
+      "flex": 6,
+      "author": "Malcolm Gladwell"
+    }
+  ],
+  "reward": [
+    {
+      "id": "1",
+      "rewardname": "Handwatch",
+      "poin": 288
+    },
+    {
+      "id": "2",
+      "rewardname": "LV School Bag",
+      "poin": 188
+    },
+    {
+      "id": "3",
+      "rewardname": "iPad Pro 2020",
+      "poin": 450
+    },
+    {
+      "id": "4",
+      "rewardname": "Air Jordan KW",
+      "poin": 188
+    },
+    {
+      "id": "5",
+      "rewardname": "Handwatch",
+      "poin": 188
+    },
+    {
+      "id": "6",
+      "rewardname": "Playstation 5",
+      "poin": 2088
+    },
+    {
+      "id": "7",
+      "rewardname": "iPad Pro 2020 KW",
+      "poin": 150
+    },
+    {
+      "id": "8",
+      "rewardname": "Modem 2020",
+      "poin": 208
+    }
+  ],
+  "improvement": [
+    {
+      "id": 2,
+      "code": "5R",
+      "name": "Efisiensi Mesin Packing",
+      "published_at": "29/3/2020, 9:30 AM",
+      "status": "Closed",
+      "updated_at": "29/3/2020, 15:30 PM",
+      "created_by": "Alfa",
+      "department": "Blending & Packing",
+      "line_of_improvement": "Blender K",
+      "leader": "Agung S.",
+      "description":
+        "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Omnis molestiae explicabo commodi veritatis esse minima suscipit? Velit iusto doloremque nostrum obcaecati quos laborum tenetur amet quam hic molestias. At, quaerat.",
+      "team": [
+        {
+          "id": 1,
+          "name": "Agung S",
+          "position": "Leader",
+          "photo": "@/assets/Ellipse_99.png"
+        },
+        {
+          "id": 1,
+          "name": "Anwar Syaifudin",
+          "position": "PM",
+          "photo": "@/assets/Ellipse_99.png"
+        },
+        {
+          "id": 1,
+          "name": "Eko Danisworo Marhaeni",
+          "position": "Advisor",
+          "photo": "@/assets/Ellipse_99.png"
+        },
+        {
+          "id": 1,
+          "name": "Tony Stark",
+          "position": "Member",
+          "photo": "@/assets/Ellipse_99.png"
+        },
+        {
+          "id": 1,
+          "name": "Agnes Puspita Sari",
+          "position": "Member",
+          "photo": "@/assets/Ellipse_99.png"
+        },
+        {
+          "id": 1,
+          "name": "Imam Wahyudi Cahyono",
+          "position": "Member",
+          "photo": "@/assets/Ellipse_99.png"
+        },
+        {
+          "id": 1,
+          "name": "Iswanto",
+          "position": "Member",
+          "photo": "@/assets/Ellipse_99.png"
+        }
+      ],
+      "summaries": [
+        {
+          "id": 1,
+          "name": "Step 1 : Uraian Identifikasi Masalah",
+          "info": {
+            "uraian":
+              "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+           "aspek": {
+              "S": "Specific",
+             "M": "Measureable",
+              "A": "Achieveable",
+              "R": "Realistic",
+              "T": "Realistic"
+            },
+            "input":{
+              "S": "tidak boros kertas untuk reprint label",
+              "M": "lebih efisien waktu",
+              "A": "bekerja lebih efisien",
+              "R": "terlihat lebih tertata rapi",
+              "T": "terlihat lebih tertata rapi"
+            }
+          },
+          "status": {
+            "pm": "approved",
+            "advisor": "waiting",
+            "facilitator": "waiting"
+          }
+          },
+        {
+          "id": 2,
+          "name": "Step 2 : Analisis Akar Masalah",
+          "info": {
+            "tidakringkas": {
+              "why1" : "angin yg keluar dr pintu mca supply formulating yg kencang membuat label di meja LCA formulating berterbangan",
+              "cver" : "pemberian tempat untuk label tekdan & dokumen dimeja LCA supply formulating"
+            },
+            "tidakrapi": {
+              "why1" : "angin yg keluar dr pintu mca supply formulating yg kencang membuat label di meja LCA formulating berterbangan",
+              "cver" : "pemberian tempat untuk label tekdan & dokumen dimeja LCA supply formulating"
+            },
+            "tidakresik": {
+              "why1" : "angin yg keluar dr pintu mca supply formulating yg kencang membuat label di meja LCA formulating berterbangan",
+              "cver" : "pemberian tempat untuk label tekdan & dokumen dimeja LCA supply formulating"
+            },
+            "tidakrawat": {
+              "why1" : "angin yg keluar dr pintu mca supply formulating yg kencang membuat label di meja LCA formulating berterbangan",
+              "cver" : "pemberian tempat untuk label tekdan & dokumen dimeja LCA supply formulating"
+            },
+            "tidakrajin": {
+              "why1" : "angin yg keluar dr pintu mca supply formulating yg kencang membuat label di meja LCA formulating berterbangan",
+              "cver1" : "pemberian tempat untuk label tekdan & dokumen dimeja LCA supply formulating",
+              "why2" : "angin yg keluar dr pintu mca supply formulating yg kencang membuat label di meja LCA formulating berterbangan",
+              "cve2" : "pemberian tempat untuk label tekdan & dokumen dimeja LCA supply formulating"
+            }
+          },
+          "status": {
+            "pm": "notapproved",
+            "advisor": "approved",
+            "facilitator": "revise"
+          },
+          "comment": {
+            "pm": "Mantul",
+            "advisor": "Lanjutkan",
+            "facilitator": "Gaskeun"
+          }
+        },
+        {
+          "id": 3,
+          "name": "Step 3 : Menentukan Rencana Perbaikan",
+          "info": {
+            "penyebab":
+              "angin yg keluar dr pintu mca supply formulating yg kencang membuat label di meja LCA formulating berterbangan",
+            "rencana_perbaikan":
+              "pemberian tempat untuk label tekdan & dokumen dimeja LCA supply formulating",
+            "why_tujuan":
+              "angin yg keluar dr pintu mca supply formulating yg kencang membuat label di meja LCA formulating berterbangan",
+            "person_in_change":
+              "angin yg keluar dr pintu mca supply formulating yg kencang membuat label di meja LCA formulating berterbangan",
+            "due_date": "01-03-2020",
+            "where_tujuan": "LCA formulating",
+            "cara_perbaikan": "Pembelian tempat dokumen",
+            "biaya": "Rp. 120,000,000"
+          },
+          "status": {
+            "pm": "notapproved",
+            "advisor": "approved",
+            "facilitator": "revise"
+          },
+          "comment": {
+            "pm": "Mantul",
+            "advisor": "Lanjutkan",
+            "facilitator": "Gaskeun"
+          }
+        },
+        {
+          "id": 4,
+          "name": "Step 4 : Melaksanakan Rencana Perbaikan",
+          "info": {
+            "perbaikan":
+              "angin yg keluar dr pintu mca supply formulating yg kencang membuat label di meja LCA formulating berterbangan",
+            "when":
+              "angin yg keluar dr pintu mca supply formulating yg kencang membuat label di meja LCA formulating berterbangan",
+            "before":
+              "angin yg keluar dr pintu mca supply formulating yg kencang membuat label di meja LCA formulating berterbangan",
+            "after":
+              "angin yg keluar dr pintu mca supply formulating yg kencang membuat label di meja LCA formulating berterbangan"
+          },
+          "status": {
+            "pm": "approved",
+            "advisor": "waiting",
+            "facilitator": "waiting"
+          },
+          "comment": {
+            "pm": "Mantul",
+            "advisor": "Lanjutkan",
+            "facilitator": "Gaskeun"
+          }
+        },
+        {
+          "id": 5,
+          "name": "Step 5 : Melaksanakan Evaluasi hasil",
+          "info": {
+            "uraian":
+              "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+            "stream": {
+              "C": "C",
+              "D": "D",
+              "M": "M",
+              "E": "E"
+            },
+            "manfaat":{
+              "C": "tidak boros kertas untuk reprint label",
+              "D": "lebih efisien waktu",
+              "M": "bekerja lebih efisien",
+              "E": "terlihat lebih tertata rapi"
+            }
+          },
+          "status": {
+            "pm": "approved",
+            "advisor": "waiting",
+            "facilitator": "waiting"
+          },
+          "comment": {
+            "pm": "Mantul",
+            "advisor": "Lanjutkan",
+            "facilitator": "Gaskeun"
+          }
+        },
+        { 
+          "id": 6,
+          "name": "Step 6 : Standarisasi",
+          "info": 
+          "Lorem ipsum dolor sit amet, consectetur adipiscing elitconsectetur adipiscing elit consectetur adipiscing elit consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum",
+          "status": {
+            "pm": "approved",
+            "advisor": "waiting",
+            "facilitator": "waiting"
+          },
+          "comment": {
+            "pm": "Mantul",
+            "advisor": "Lanjutkan",
+            "facilitator": "Gaskeun"
+          }
+        }        
+      ]
+    },
+    {
+      "id": "1",
+      "code": "SS",
+      "name": "Efisiensi Mesin Packing",
+      "published_at": "29/3/2020, 9:30 AM",
+      "status": "Ongoing",
+      "updated_at": "24/9/2020 15:30 PM",
+      "created_by": "Radha",
+      "department": "Blending & Packing",
+      "line_of_improvement": "Blender K",
+      "leader": "Agung S.",
+      "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Omnis molestiae explicabo commodi veritatis esse minima suscipit? Velit iusto doloremque nostrum obcaecati quos laborum tenetur amet quam hic molestias. At, quaerat.",
+      "team": [
+        {
+          "id": 1,
+          "name": "Agung S",
+          "position": "Leader"
+        },
+        {
+          "id": 2,
+          "name": "Anwar Syaifudin",
+          "position": "PM"
+        },
+        {
+          "id": 3,
+          "name": "Eko Danisworo Marhaeni",
+          "position": "Advisor"
+        },
+        {
+          "id": 4,
+          "name": "Tony Stark",
+          "position": "Member"
+        },
+        {
+          "id": 5,
+          "name": "Agnes Puspita Sari",
+          "position": "Member"
+        },
+        {
+          "id": 6,
+          "name": "Imam Wahyudi Cahyono",
+          "position": "Member"
+        },
+        {
+          "id": 7,
+          "name": "Iswanto",
+          "position": "Member"
+        }
+      ],
+      "summaries": [
+        {
+          "id": 1,
+          "name": "Step 1 : Uraian Identifikasi Masalah",
+          "info": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum"
+        },
+        {
+          "id": 2,
+          "name": "Step 2 : Analisis Akar Masalah",
+          "info": {
+            "penyebab": "angin yg keluar dr pintu mca supply formulating yg kencang membuat label di meja LCA formulating berterbangan",
+            "rencana_perbaikan": "pemberian tempat untuk label tekdan & dokumen dimeja LCA supply formulating",
+            "why_tujuan": "angin yg keluar dr pintu mca supply formulating yg kencang membuat label di meja LCA formulating berterbangan",
+            "person_in_change": "angin yg keluar dr pintu mca supply formulating yg kencang membuat label di meja LCA formulating berterbangan",
+            "due_date": "01-03-2020",
+            "where_tujuan": "LCA formulating",
+            "cara_perbaikan": "Pembelian tempat dokumen",
+            "biaya": "Rp. 120,000,000"
+          },
+          "status": {
+            "pm": "notapproved",
+            "advisor": "approved",
+            "facilitator": "revise"
+          },
+          "comment": {
+            "pm": "Mantul",
+            "advisor": "Lanjutkan",
+            "facilitator": "Gaskeun"
+          }
+        },
+        {
+          "id": 3,
+          "name": "Step 3 : Menentukan Rencana Perbaikan",
+          "info": {
+            "perbaikan": "angin yg keluar dr pintu mca supply formulating yg kencang membuat label di meja LCA formulating berterbangan",
+            "when": "angin yg keluar dr pintu mca supply formulating yg kencang membuat label di meja LCA formulating berterbangan",
+            "before": "angin yg keluar dr pintu mca supply formulating yg kencang membuat label di meja LCA formulating berterbangan",
+            "after": "angin yg keluar dr pintu mca supply formulating yg kencang membuat label di meja LCA formulating berterbangan"
+          },
+          "status": {
+            "pm": "waiting",
+            "advisor": "waiting",
+            "facilitator": "waiting"
+          }
+        },
+        {
+          "id": 4,
+          "name": "Step 4 : Melaksanakan Perbaikan",
+          "info": {
+            "uraian": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+            "stream": {
+              "C": "C",
+              "D": "D",
+              "M": "M",
+              "E": "E"
+            },
+            "manfaat": {
+              "C": "tidak boros kertas untuk reprint label",
+              "D": "lebih efisien waktu",
+              "M": "bekerja lebih efisien",
+              "E": "terlihat lebih tertata rapi"
+            }
+          },
+          "status": {
+            "pm": "approved",
+            "advisor": "waiting",
+            "facilitator": "waiting"
+          }
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "code": "SS",
+      "name": "Efisiensi Proses Bisnis",
+      "published_at": "29/3/2020, 9:30 AM",
+      "status": "Ongoing",
+      "updated_at": "24/9/2020 15:30 PM",
+      "created_by": "Bella",
+      "department": "Blending & Packing",
+      "line_of_improvement": "Blender K",
+      "leader": "Agung S.",
+      "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Omnis molestiae explicabo commodi veritatis esse minima suscipit? Velit iusto doloremque nostrum obcaecati quos laborum tenetur amet quam hic molestias. At, quaerat.",
+      "team": [
+        {
+          "id": 1,
+          "name": "Agung S",
+          "position": "Leader"
+        },
+        {
+          "id": 2,
+          "name": "Anwar Syaifudin",
+          "position": "PM"
+        },
+        {
+          "id": 3,
+          "name": "Eko Danisworo Marhaeni",
+          "position": "Advisor"
+        },
+        {
+          "id": 4,
+          "name": "Tony Stark",
+          "position": "Member"
+        },
+        {
+          "id": 5,
+          "name": "Agnes Puspita Sari",
+          "position": "Member"
+        },
+        {
+          "id": 6,
+          "name": "Imam Wahyudi Cahyono",
+          "position": "Member"
+        },
+        {
+          "id": 7,
+          "name": "Iswanto",
+          "position": "Member"
+        }
+      ],
+      "summaries": [
+        {
+          "id": 1,
+          "name": "Step 1 : Uraian Identifikasi Masalah",
+          "info": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum"
+        },
+        {
+          "id": 2,
+          "name": "Step 2 : Analisis Akar Masalah",
+          "info": {
+            "penyebab": "angin yg keluar dr pintu mca supply formulating yg kencang membuat label di meja LCA formulating berterbangan",
+            "rencana_perbaikan": "pemberian tempat untuk label tekdan & dokumen dimeja LCA supply formulating",
+            "why_tujuan": "angin yg keluar dr pintu mca supply formulating yg kencang membuat label di meja LCA formulating berterbangan",
+            "person_in_change": "angin yg keluar dr pintu mca supply formulating yg kencang membuat label di meja LCA formulating berterbangan",
+            "due_date": "01-03-2020",
+            "where_tujuan": "LCA formulating",
+            "cara_perbaikan": "Pembelian tempat dokumen",
+            "biaya": "Rp. 120,000,000"
+          },
+          "status": {
+            "pm": "notapproved",
+            "advisor": "approved",
+            "facilitator": "revise"
+          },
+          "comment": {
+            "pm": "Mantul",
+            "advisor": "Lanjutkan",
+            "facilitator": "Gaskeun"
+          }
+        },
+        {
+          "id": 3,
+          "name": "Step 3 : Menentukan Rencana Perbaikan",
+          "info": {
+            "perbaikan": "angin yg keluar dr pintu mca supply formulating yg kencang membuat label di meja LCA formulating berterbangan",
+            "when": "angin yg keluar dr pintu mca supply formulating yg kencang membuat label di meja LCA formulating berterbangan",
+            "before": "angin yg keluar dr pintu mca supply formulating yg kencang membuat label di meja LCA formulating berterbangan",
+            "after": "angin yg keluar dr pintu mca supply formulating yg kencang membuat label di meja LCA formulating berterbangan"
+          },
+          "status": {
+            "pm": "waiting",
+            "advisor": "waiting",
+            "facilitator": "waiting"
+          }
+        },
+        {
+          "id": 4,
+          "name": "Step 4 : Melaksanakan Perbaikan",
+          "info": {
+            "uraian": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+            "stream": {
+              "C": "C",
+              "D": "D",
+              "M": "M",
+              "E": "E"
+            },
+            "manfaat": {
+              "C": "tidak boros kertas untuk reprint label",
+              "D": "lebih efisien waktu",
+              "M": "bekerja lebih efisien",
+              "E": "terlihat lebih tertata rapi"
+            }
+          },
+          "status": {
+            "pm": "approved",
+            "advisor": "waiting",
+            "facilitator": "waiting"
+          }
+        }
+      ]
     }
   ]
 }
